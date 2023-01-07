@@ -10,8 +10,7 @@ class Program
 
         int grade = int.Parse(userValue);
         string letter = "";
-        string letterSign = "";
-
+        
         if (grade >= 90) {
             letter = "A";
         }
